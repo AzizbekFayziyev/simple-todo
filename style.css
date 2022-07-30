@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#333, #111);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.cnt{
+    padding: 25px;
+    background: #00000030;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 25px 0;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 10px #fff, 2px 2px 12px rgb(255, 225, 0);
+}
+
+form,
+ul {
+    text-align: center;
+    margin: 20px auto;
+}
+
+form input {
+    height: 35px;
+    width: 250px;
+    outline: none;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+
+form input:focus {
+    box-shadow: 1px 1px 5px #fff;
+}
+
+form button {
+    border: 1px solid #fff;
+    height: 35px;
+    width: 50px;
+    outline: none;
+    border-radius: 10px;
+    background: rgb(25, 255, 33);
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s
+}
+
+form button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul{
+    text-align: left;
+    margin: 28px auto;
+    list-style-type: none;
+}
+
+ul li{
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0; 
+    text-shadow: 0.5px 0px 10px #fff;
+}
+
+ul li button{
+    outline: none;
+   border-radius: 10px;
+   padding: 4px 10px;
+   background: crimson;
+   color: #fff;
+   transform: 0.3s;
+}
+
+ul li button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
